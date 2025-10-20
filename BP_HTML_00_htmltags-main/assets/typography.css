@@ -1,0 +1,20 @@
+p{
+    margin-top: .5em;
+}
+h1{ 
+    font-size: 4em;
+    font-weight: extrabold;
+    color: #0B2E33;
+}
+h2{ 
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 1;
+    color: #4F7C82;
+}
+h3{ 
+    font-size: 2em;
+    font-weight: bold;
+    opacity: 1;
+    color: #0B2E33;
+}
