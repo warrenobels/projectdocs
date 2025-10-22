@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 5</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #0B2E33;
+        background-color: #FFFFFF;
+    }
+
+    /* Navigatiebalk vastzetten */
+    table {
+        width: 100%;
+        background-color: #0B2E33;
+        border-collapse: collapse;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    table td {
+        padding: 20px 30px;
+        text-align: center;
+    }
+
+    table a {
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    a.week5 {
+        color: rgb(78, 101, 105);
+    }
+
+    /* Ruimte creëren voor vaste navigatie */
+    main {
+        max-width: 900px;
+        margin: 120px auto 0 auto;
+        padding: 0 30px;
+    }
+
+    /* Blokjes tekst */
+    .blokje {
+        margin-bottom: 60px;
+    }
+
+    .blokje .label {
+        display: block;
+        font-weight: bold;
+        font-size: 22px; 
+        color: #0B2E33;
+        margin-bottom: 15px; 
+        text-transform: uppercase;
+        letter-spacing: 1px; 
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+    }
+
+    .blokje .label:hover {
+        color: #008C9E;
+    }
+
+    .blokje .tekst {
+        font-size: 22px;
+        line-height: 1.8;
+        text-align: justify;
+        letter-spacing: normal;
+    }
+
+    /* Specifiek Perronscherm blokje */
+    .blokje.perronscherm .tekst {
+        letter-spacing: normal;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 200px;
+        font-size: 16px;
+    }
+
+    hr {
+        border: 1px solid #0B2E33;
+        width: 80%;
+        margin: 40px auto;
+    }
+
+    /* Responsief: kleinere schermen */
+    @media (max-width: 700px) {
+        main {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .blokje .label {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .blokje .tekst {
+            font-size: 20px;
+        }
+    }
+</style>
+</head>
+<body>
+
+    <!-- Navigatiebalk -->
+    <table border="0" cellspacing="0">
+        <tr align="center">
+            <td><b><a href="index.html">Home</a></b></td>
+            <td><b><a href="Week 1.html">Week 1</a></b></td>
+            <td><b><a href="Week 2.html">Week 2</a></b></td>
+            <td><b><a href="Week 3.html">Week 3</a></b></td>
+            <td><b><a href="Week 4.html">Week 4</a></b></td>
+            <td><b><a href="Week 5.html" class="week5">Week 5</a></b></td>
+            <td><b><a href="Kleuren en typografie.html">Kleuren en typografie</a></b></td>
+        </tr>
+    </table>
+
+    <main>
+        <div class="blokje">
+            <div class="label">Overzichtsscherm</div>
+            <div class="tekst">
+                Tijdens deze week kregen we feedback op onze verschillende schermen. Ik kreeg feedback over enkele zaken die ik best nog kon aanpassen om de schermen beter en overzichtelijker te maken. Zo paste ik het icoontje aan van de locatie zodat het een beter geheel vormt met de andere iconen. Daarnaast heb ik ook nog de balk vergroot waarin opmerkingen komen onderaan het scherm.
+            </div>
+        </div>
+
+        <div class="blokje perronscherm">
+            <div class="label">Perronscherm</div>
+            <div class="tekst">
+                Bij dit scherm kreeg ik positieve feedback, waardoor er geen nood was om iets te veranderen of verbeteren.
+            </div>
+        </div>
+
+        <div class="blokje">
+            <div class="label">Wagonscherm</div>
+            <div class="tekst">
+                Hierbij heb ik twee zaken aangepast. Zo heb ik het lettergewicht en de lettergrootte aangepast bij het eerstvolgende station waar de trein zal stoppen. Tot slot heb ik een kadertje rond de wagon geplaatst waarin het scherm zich bevindt.
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        &copy; 2025 - Warre Nobels
+    </footer>
+
+</body>
+</html>
