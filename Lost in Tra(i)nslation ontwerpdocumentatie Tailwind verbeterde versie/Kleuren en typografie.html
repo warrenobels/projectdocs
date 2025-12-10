@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kleuren en typografie</title>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    :root {
+        --main: #0B2E33;
+        --accent: rgb(78, 101, 105);
+    }
+</style>
+</head>
+
+<body class="font-sans text-[var(--main)] bg-white">
+
+    <!-- NAV -->
+    <nav class="bg-white border-b border-gray-200 shadow-sm">
+        <ul class="flex justify-center gap-8 py-4 text-lg font-medium">
+            <li><a href="index.html" class="hover:text-[var(--main)]">Home</a></li>
+            <li><a href="Week 1.html" class="hover:text-[var(--main)]">Week 1</a></li>
+            <li><a href="Week 2.html" class="hover:text-[var(--main)]">Week 2</a></li>
+            <li><a href="Week 3.html" class="hover:text-[var(--main)]">Week 3</a></li>
+            <li><a href="Week 4.html" class="hover:text-[var(--main)]">Week 4</a></li>
+            <li><a href="Week 5.html" class="hover:text-[var(--main)]">Week 5</a></li>
+            <li><a href="Figma.html" class="hover:text-[var(--main)]">Figma</a></li>
+
+            <!-- ACTIVE STATE -->
+            <li><a href="Kleuren en typografie.html" class="text-[var(--accent)] font-semibold hover:text-[var(--main)]">Kleuren & typografie</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN -->
+    <main class="max-w-[900px] mx-auto mt-16 px-8">
+
+        <!-- Tekstblok -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-4 uppercase">Kleuren en typografie</h2>
+            <p class="leading-[1.8] text-lg text-justify">
+                In dit onderdeel ga ik wat meer praten over mijn beslissingen in Figma. Meer bepaald over de keuze van kleur en typografie. 
+                Een van de eerste dingen die opvalt als er naar mijn project in Figma wordt gekeken zijn de kleuren. Ik heb als hoofdkleuren gekozen voor blauw, oranje en wit. 
+                Deze beslissing heb ik genomen, omdat ik vind dat blauw en oranje een zeer goed contrast bieden. Zo blijft van ver weg alles zeer goed te lezen op de schermen. 
+                De kleur wit heb ik gebruikt om andere zaken aan te duiden (de tijd, het vertrekuur van de trein, de status, het type trein, …). 
+                Deze keuze heb ik gemaakt, omdat ik vind dat wit ook zeer goed contrasteert met blauw. Dit zijn de voornaamste redenen voor de keuzes op vlak van kleur. 
+                Dan zijn er nog mijn keuzes op vlak van typografie. Ik heb voor al mijn 3 schermen gekozen voor het lettertype Inter. 
+                Ik vind dat als steeds hetzelfde lettertype gebruikt wordt, er een veel beter overzicht blijft. Deze keuze komt zeker ook de leesbaarheid ten goede. 
+                Het lettertype Inter bestaat uit schreefloze letters. Ik vind dat dit type letters meer geschikt is voor deze toepassing dan letters met schreef. 
+                Daarnaast heb ik ook gebruik gemaakt van verschillende lettergroottes. Een voorbeeld hiervan is dat ik de eindbestemming in een groter lettertype heb geplaatst dan langs waar de trein passeert. 
+                Door dit te doen is de hiërarchie veel meer zichtbaar. De eindbestemming blijft namelijk wel belangrijker dan de tussenstops, en dat wordt op deze manier goed weergegeven.
+            </p>
+
+            <!-- FOTO'S -->
+            <div class="flex flex-wrap gap-4 mt-6 justify-center">
+                <img src="images/lichtblauw.png" alt="Kleuren blauw" class="w-[30%] rounded shadow">
+                <img src="images/oranje.png" alt="Kleuren oranje" class="w-[30%] rounded shadow">
+                <img src="images/donkerblauw.png" alt="Kleuren donkerblauw" class="w-[30%] rounded shadow">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-center mt-[200px] text-[16px]">
+        <hr class="border border-[var(--main)] w-[80%] mx-auto my-[40px]">
+        &copy; 2025 - Warre Nobels
+    </footer>
+
+</body>
+</html>
